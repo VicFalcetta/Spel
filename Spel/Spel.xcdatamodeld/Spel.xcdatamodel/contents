@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="JogoDesejado" representedClassName=".JogoDesejado" syncable="YES">
+        <attribute name="descricao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgJogo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" attributeType="String" syncable="YES"/>
+        <attribute name="plataforma" attributeType="String" syncable="YES"/>
+        <attribute name="vontade" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="JogoJogado" representedClassName=".JogoJogado" syncable="YES">
+        <attribute name="descricao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imgJogo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nome" attributeType="String" syncable="YES"/>
+        <attribute name="nota" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="plataforma" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="JogoDesejado" positionX="-54" positionY="18" width="128" height="120"/>
+        <element name="JogoJogado" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
 </model>
