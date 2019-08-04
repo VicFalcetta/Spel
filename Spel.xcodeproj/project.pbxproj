@@ -13,6 +13,7 @@
 		2252A1CE22F0144000765367 /* JogoDesejado+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252A1CC22F0144000765367 /* JogoDesejado+CoreDataProperties.swift */; };
 		2252A1D022F016ED00765367 /* ShareTechMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2252A1CF22F016ED00765367 /* ShareTechMono-Regular.ttf */; };
 		2252A1D522F0EE6700765367 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2252A1D422F0EE6700765367 /* StoreKit.framework */; };
+		2252A1D722F4A4C800765367 /* Achievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252A1D622F4A4C800765367 /* Achievements.swift */; };
 		22840FF922E8FDDC00C0684B /* JogosJogadosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22840FF822E8FDDC00C0684B /* JogosJogadosTableViewController.swift */; };
 		22840FFB22EA4B3B00C0684B /* JogosJogados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22840FFA22EA4B3B00C0684B /* JogosJogados.swift */; };
 		22840FFD22EA590D00C0684B /* ListaJogosJogados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22840FFC22EA590D00C0684B /* ListaJogosJogados.swift */; };
@@ -36,6 +37,7 @@
 		2252A1CC22F0144000765367 /* JogoDesejado+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JogoDesejado+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2252A1CF22F016ED00765367 /* ShareTechMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ShareTechMono-Regular.ttf"; path = "../../../../Library/Fonts/ShareTechMono-Regular.ttf"; sourceTree = "<group>"; };
 		2252A1D422F0EE6700765367 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2252A1D622F4A4C800765367 /* Achievements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievements.swift; sourceTree = "<group>"; };
 		22840FF822E8FDDC00C0684B /* JogosJogadosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogosJogadosTableViewController.swift; sourceTree = "<group>"; };
 		22840FFA22EA4B3B00C0684B /* JogosJogados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogosJogados.swift; sourceTree = "<group>"; };
 		22840FFC22EA590D00C0684B /* ListaJogosJogados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaJogosJogados.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				22840FFC22EA590D00C0684B /* ListaJogosJogados.swift */,
 				2284100822EF879D00C0684B /* JogosDesejados.swift */,
 				2284100A22EF87E300C0684B /* ListaJogosDesejados.swift */,
+				2252A1D622F4A4C800765367 /* Achievements.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				2284100B22EF87E300C0684B /* ListaJogosDesejados.swift in Sources */,
 				2284100D22EF890500C0684B /* JogosDesejadosTableViewController.swift in Sources */,
 				22FDD7E722E0EEC500D237E5 /* ViewController.swift in Sources */,
+				2252A1D722F4A4C800765367 /* Achievements.swift in Sources */,
 				2252A1C922F00D3E00765367 /* JogoJogado+CoreDataClass.swift in Sources */,
 				22FDD7ED22E0EEC500D237E5 /* Spel.xcdatamodeld in Sources */,
 				22840FFF22ECF95A00C0684B /* AddJogoTableController.swift in Sources */,

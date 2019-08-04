@@ -25,9 +25,9 @@ class ListaJogosJogados {
 //        return itemJogo
 //    }
     
-    func nomeRandom() -> String {
-        var nomesAleat = ["Dead by Daylight","Spore","Terraria","Dishonered","Gta 5"]
-        let randomNum = Int.random(in: 0 ... nomesAleat.count - 1)
-        return nomesAleat[randomNum]
-    }
+//    func nomeRandom() -> String {
+//        var nomesAleat = ["Dead by Daylight","Spore","Terraria","Dishonered","Gta 5"]
+//        let randomNum = Int.random(in: 0 ... nomesAleat.count - 1)
+//        return nomesAleat[randomNum]
+//    }
 }

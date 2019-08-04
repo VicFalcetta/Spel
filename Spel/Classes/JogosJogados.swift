@@ -6,6 +6,8 @@
 //  Copyright © 2019 Victor Falcetta do Nascimento. All rights reserved.
 //
 
+//Old até eu descobrir como utilizar ligado as classes do coredata
+
 import Foundation
 import CoreData
 

@@ -6,6 +6,8 @@
 //  Copyright © 2019 Victor Falcetta do Nascimento. All rights reserved.
 //
 
+//Old até eu descobrir como utilizar a classe junto as do coredata
+
 import Foundation
 
 class JogosDesejados {

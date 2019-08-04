@@ -60,7 +60,7 @@ class AddDesejadoTableViewController: UITableViewController, UIPickerViewDelegat
         
         self.addDesejadoVontade.delegate = self
         self.addDesejadoVontade.dataSource = self
-        pickerVontades = ["0","1","2","3","4","5"]
+        pickerVontades = ["1","2","3","4","5"]
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

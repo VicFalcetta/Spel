@@ -8,9 +8,13 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 class JogosJogadosTableViewController: UITableViewController {
     
+    var contadorIniciou = 0
+    let defaults = UserDefaults.standard
+    let achievements: Achievements
     var tabJogosJogados: ListaJogosJogados
     private let appDelegate = UIApplication.shared.delegate as! AppDelegate
     private let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
@@ -25,16 +29,58 @@ class JogosJogadosTableViewController: UITableViewController {
 //    }
     
     required init?(coder aDecoder: NSCoder) {
-    
+        
         tabJogosJogados = ListaJogosJogados()
+        achievements = Achievements()
         
         super.init(coder: aDecoder)
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.isOpaque = true
         navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.2117647059, green: 0.7098039216, blue: 0.8705882353, alpha: 1)
+        
+        self.contadorIniciou = defaults.integer(forKey: "VezesIniciou") + 1
+        self.defaults.set((contadorIniciou), forKey: "VezesIniciou")
+        
+        if self.contadorIniciou == 1{
+            
+                
+            //Nas variáveis abaixo definimos o corpo da mensagem
+            let titulo = "Achievement liberado:"
+            let subtitulo = achievements.retornaTitulo(num: 0)
+            let mensagem = achievements.retornaDescricao(num: 0)
+                
+                //O identificador serve para o caso de queremos identificar uma notificação especifica
+            let identificador = "achievPrimeiro"
+            let tempo:TimeInterval = 5 // segundos
+                
+                
+            self.appDelegate.enviarNotificacao(titulo, subtitulo, mensagem, identificador, tempo)
+
+            
+//            let conteudo = UNMutableNotificationContent()
+//            conteudo.title = "Achievement: \(achievements.retornaTitulo(num: 0))"
+//            conteudo.body = achievements.retornaDescricao(num: 0)
+//            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+//            let request = UNNotificationRequest(identifier: "achievement1", content: conteudo, trigger: trigger)
+//
+//            let achiev1NotificationCenter = UNUserNotificationCenter.current()
+//            achiev1NotificationCenter.getNotificationSettings{ (settings) in
+//                if settings.authorizationStatus == .authorized{
+//                    let center = UNUserNotificationCenter.current()
+//                    center.add(request) { (error : Error?) in
+//                        if let error = error {
+//                            print(error.localizedDescription)
+//                        }
+//                    }
+//                }else{
+//                    print("Impossível mandar notificação - permissão negada")
+//                }
+//            }
+            
+        }
 
     }
     

@@ -72,7 +72,7 @@ class AddJogoTableController: UITableViewController, UIPickerViewDelegate, UIPic
         self.pickerNota.delegate = self
         self.pickerNota.dataSource = self
         
-        pickerNotas = ["0","1","2","3","4","5"]
+        pickerNotas = ["1","2","3","4","5"]
         
         
 
