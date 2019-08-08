@@ -60,26 +60,17 @@ class JogosJogadosTableViewController: UITableViewController {
             self.appDelegate.enviarNotificacao(titulo, subtitulo, mensagem, identificador, tempo)
 
             
-//            let conteudo = UNMutableNotificationContent()
-//            conteudo.title = "Achievement: \(achievements.retornaTitulo(num: 0))"
-//            conteudo.body = achievements.retornaDescricao(num: 0)
-//            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
-//            let request = UNNotificationRequest(identifier: "achievement1", content: conteudo, trigger: trigger)
-//
-//            let achiev1NotificationCenter = UNUserNotificationCenter.current()
-//            achiev1NotificationCenter.getNotificationSettings{ (settings) in
-//                if settings.authorizationStatus == .authorized{
-//                    let center = UNUserNotificationCenter.current()
-//                    center.add(request) { (error : Error?) in
-//                        if let error = error {
-//                            print(error.localizedDescription)
-//                        }
-//                    }
-//                }else{
-//                    print("Impossível mandar notificação - permissão negada")
-//                }
-//            }
+        }
+        
+        if tabJogosJogados.jogosJogadosArray.count == 1{
+            let achievTitle = "Achievement liberado:"
+            let achievSubtitle = achievements.retornaTitulo(num: 2)
+            let achievDesc = achievements.retornaDescricao(num: 2)
             
+            let identificador = "achievSegundo"
+            let tempo: TimeInterval = 3
+            
+            self.appDelegate.enviarNotificacao(achievTitle, achievSubtitle, achievDesc, identificador, tempo)
         }
 
     }

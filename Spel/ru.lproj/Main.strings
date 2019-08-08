@@ -1,0 +1,93 @@
+
+/* Class = "UITabBarItem"; title = "Jogos Desejados"; ObjectID = "0Bt-fu-TmJ"; */
+"0Bt-fu-TmJ.title" = "Jogos Desejados";
+
+/* Class = "UILabel"; text = "Rank do jogo"; ObjectID = "3zD-Ye-MJt"; */
+"3zD-Ye-MJt.text" = "Rank do jogo";
+
+/* Class = "UILabel"; text = "Nota do jogo"; ObjectID = "47h-rN-lws"; */
+"47h-rN-lws.text" = "Nota do jogo";
+
+/* Class = "UIBarButtonItem"; title = "Cancelar"; ObjectID = "8dr-xF-Y6O"; */
+"8dr-xF-Y6O.title" = "Cancelar";
+
+/* Class = "UINavigationItem"; title = "Jogos Jogados"; ObjectID = "ASM-MV-d41"; */
+"ASM-MV-d41.title" = "Jogos Jogados";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EbP-W6-Bjl"; */
+"EbP-W6-Bjl.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "FF0-W9-ss9"; */
+"FF0-W9-ss9.text" = "Label";
+
+/* Class = "UILabel"; text = "Rank:"; ObjectID = "HVC-Ll-6DR"; */
+"HVC-Ll-6DR.text" = "Rank:";
+
+/* Class = "UINavigationItem"; title = "Adicionar Jogo"; ObjectID = "IMR-cu-LwC"; */
+"IMR-cu-LwC.title" = "Adicionar Jogo";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "KsL-Nr-6Zz"; */
+"KsL-Nr-6Zz.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Adicionar Jogo"; ObjectID = "P5v-3t-5cl"; */
+"P5v-3t-5cl.title" = "Adicionar Jogo";
+
+/* Class = "UINavigationItem"; title = "Jogos Desejados"; ObjectID = "P8O-pm-Fnm"; */
+"P8O-pm-Fnm.title" = "Jogos Desejados";
+
+/* Class = "UIBarButtonItem"; title = "Cancelar"; ObjectID = "Pn5-Hs-HYw"; */
+"Pn5-Hs-HYw.title" = "Cancelar";
+
+/* Class = "UITextField"; placeholder = "Informe a plataforma do jogo"; ObjectID = "RIB-No-Wfw"; */
+"RIB-No-Wfw.placeholder" = "Informe a plataforma do jogo";
+
+/* Class = "UILabel"; text = "Plataforma:"; ObjectID = "RhQ-cq-nUW"; */
+"RhQ-cq-nUW.text" = "Plataforma:";
+
+/* Class = "UILabel"; text = "Plataforma do jogo"; ObjectID = "T7t-CF-zGM"; */
+"T7t-CF-zGM.text" = "Plataforma do jogo";
+
+/* Class = "UITableViewController"; title = "Jogos Jogados"; ObjectID = "UUP-ls-rcT"; */
+"UUP-ls-rcT.title" = "Jogos Jogados";
+
+/* Class = "UIBarButtonItem"; title = "Adicionar"; ObjectID = "Upx-0h-RBD"; */
+"Upx-0h-RBD.title" = "Adicionar";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WLx-u8-zng"; */
+"WLx-u8-zng.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Informe o nome do jogo"; ObjectID = "ZZX-hH-AMh"; */
+"ZZX-hH-AMh.placeholder" = "Informe o nome do jogo";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cgv-ej-sIx"; */
+"cgv-ej-sIx.text" = "Label";
+
+/* Class = "UILabel"; text = "Plataforma do jogo"; ObjectID = "fkY-tG-5LB"; */
+"fkY-tG-5LB.text" = "Plataforma do jogo";
+
+/* Class = "UITabBarItem"; title = "Jogos Jogados"; ObjectID = "heq-el-rRw"; */
+"heq-el-rRw.title" = "Jogos Jogados";
+
+/* Class = "UILabel"; text = "Nome do jogo"; ObjectID = "hw4-I6-sOo"; */
+"hw4-I6-sOo.text" = "Nome do jogo";
+
+/* Class = "UILabel"; text = "Nome do jogo"; ObjectID = "ixc-Dd-XgJ"; */
+"ixc-Dd-XgJ.text" = "Nome do jogo";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kyC-BX-REN"; */
+"kyC-BX-REN.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Informe a plataforma do jogo"; ObjectID = "oKW-Ov-hKC"; */
+"oKW-Ov-hKC.placeholder" = "Informe a plataforma do jogo";
+
+/* Class = "UIBarButtonItem"; title = "Adicionar"; ObjectID = "sDM-MM-xAB"; */
+"sDM-MM-xAB.title" = "Adicionar";
+
+/* Class = "UILabel"; text = "Plataforma:"; ObjectID = "vA7-sO-s3e"; */
+"vA7-sO-s3e.text" = "Plataforma:";
+
+/* Class = "UILabel"; text = "Nota:"; ObjectID = "wkG-NO-jry"; */
+"wkG-NO-jry.text" = "Nota:";
+
+/* Class = "UITextField"; placeholder = "Informe o nome do jogo"; ObjectID = "xC4-1B-uaW"; */
+"xC4-1B-uaW.placeholder" = "Informe o nome do jogo";

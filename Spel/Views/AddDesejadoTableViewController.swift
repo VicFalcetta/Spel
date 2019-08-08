@@ -34,7 +34,7 @@ class AddDesejadoTableViewController: UITableViewController, UIPickerViewDelegat
         if let fieldPlatDesejado = addDesejadoPlat.text{
             jogo.plataforma = fieldPlatDesejado
         }
-        jogo.vontade = Int32(addDesejadoVontade.selectedRow(inComponent: 0))
+        jogo.vontade = Int32(addDesejadoVontade.selectedRow(inComponent: 0) + 1)
         
         delegate?.addJogoDesejadoViewController(self, didFinishAdding: jogo)
         appDelegate.saveContext()

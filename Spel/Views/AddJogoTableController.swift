@@ -44,7 +44,7 @@ class AddJogoTableController: UITableViewController, UIPickerViewDelegate, UIPic
             jogo.plataforma = fieldPlatJogo
         }
         
-        jogo.nota = Int32(pickerNota.selectedRow(inComponent: 0))
+        jogo.nota = Int32(pickerNota.selectedRow(inComponent: 0) + 1)
         
         
         delegate?.addJogoViewController(self, didFinishAdding: jogo)
